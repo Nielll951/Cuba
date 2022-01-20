@@ -174,10 +174,36 @@ body {
 
 .about__item {
   margin-bottom: 100px;
+  padding: 70px 0;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
+.about__item:nth-child(even) {
+  background-position: left;
+}
+
+.about__item:nth-child(even) .about__box {
+  margin-left: auto;
+}
+
+.about__item:nth-child(even) .about__box::before {
+  right: 19px;
+  left: auto;
+  background-image: none;
+  border-right: 2px solid #ECB84C;
+  border-top: 2px solid #ECB84C;
+}
+
+.about__item:nth-child(even) .about__box::after {
+ border-right: none;
+ left: 19px;
+ border-left: 2px solid #ECB84C;
+}
+
+
 .about__box {
-  padding: 33px 40px 18px 40px;
+  padding: 33px 40px;
   background-color: #fff;
   max-width: 470px;
   position: relative;
