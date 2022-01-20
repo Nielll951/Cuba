@@ -10,6 +10,10 @@ a {
   display: inline-block;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   color: #505050;
   font-family: 'Lato', sans-serif;
@@ -265,6 +269,27 @@ body {
 .photo__slider {
   max-width: 640px;
   margin: 0 auto;
+  filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
+}
+
+.slick-arrow {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ECB84C;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
 }
 
 
