@@ -43,6 +43,7 @@ body {
 
 .title {
   font-family: Georgia;
+  font-weight: 400;
   font-size: 32px;
   line-height: 38px;
   text-align: center;
@@ -244,6 +245,26 @@ body {
   line-height: 25px;
   color: #4E5665;
   margin-bottom: 20px;
+}
+
+.about__preview-title {
+  margin-bottom: 38px;
+}
+
+.about__images-box {
+  padding-top: 73px;
+}
+
+.about__dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(236, 184, 76, .75);
+  position: relative;
+}
+
+.about__preview-text {
+  margin: 53px auto 80px;
 }
 
 .photo {
