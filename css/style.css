@@ -461,6 +461,58 @@ body {
   line-height: 19px;
 }
 
+.menu__btn {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .header__title {
+    font-size: 120px;
+    line-height: 150px;
+  }
+
+  .header__text {
+    font-size: 20px;
+  }
+
+  .menu {
+    position: relative;
+  }
+
+  .menu__btn {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    top: 10px;
+    right: 40px;
+  }
+
+  .menu__btn span {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #FFD600;
+    height: 4px;
+  }
+
+  .menu__list {
+    display: none;
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: 4px solid #ECB84C;
+  }
+
+  .menu__list-link {
+    display: block;
+    border-top: 4px solid #ECB84C;
+  }
+
+  .menu__list-link:hover {
+    border-bottom: none;
+  }
+
+}
+
 
 
   
